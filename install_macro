@@ -1,0 +1,1 @@
+pip install --root=%{buildroot} --no-deps --ignore-installed dist/*.whl
