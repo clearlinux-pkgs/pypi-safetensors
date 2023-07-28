@@ -5,7 +5,7 @@
 #
 Name     : pypi-safetensors
 Version  : 0.3.1
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/c2/54/44496d0eb0c1cd415d76bff20c38c6e0a07346e69ee532027738891a4940/safetensors-0.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/54/44496d0eb0c1cd415d76bff20c38c6e0a07346e69ee532027738891a4940/safetensors-0.3.1.tar.gz
 Source1  : http://localhost/cgit/vendor/pypi-safetensors/snapshot/pypi-safetensors-2023-07-28-20-05-43.tar.xz
@@ -54,6 +54,7 @@ python components for the pypi-safetensors package.
 Summary: python3 components for the pypi-safetensors package.
 Group: Default
 Requires: python3-core
+Provides: pypi(safetensors)
 
 %description python3
 python3 components for the pypi-safetensors package.
