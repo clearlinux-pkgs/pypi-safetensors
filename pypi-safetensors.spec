@@ -4,10 +4,10 @@
 # Using build pattern: cargo
 #
 Name     : pypi-safetensors
-Version  : 0.3.1
-Release  : 2
-URL      : https://files.pythonhosted.org/packages/c2/54/44496d0eb0c1cd415d76bff20c38c6e0a07346e69ee532027738891a4940/safetensors-0.3.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c2/54/44496d0eb0c1cd415d76bff20c38c6e0a07346e69ee532027738891a4940/safetensors-0.3.1.tar.gz
+Version  : 0.3.3
+Release  : 3
+URL      : https://files.pythonhosted.org/packages/ea/43/9911dc3ab9c8da3ef0ecf9c81cca132327f73beb22be9b03eaa9f3070d40/safetensors-0.3.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ea/43/9911dc3ab9c8da3ef0ecf9c81cca132327f73beb22be9b03eaa9f3070d40/safetensors-0.3.3.tar.gz
 Source1  : http://localhost/cgit/vendor/pypi-safetensors/snapshot/pypi-safetensors-2023-07-28-20-05-43.tar.xz
 Summary  : Fast and Safe Tensor serialization
 Group    : Development/Tools
@@ -61,12 +61,12 @@ python3 components for the pypi-safetensors package.
 
 
 %prep
-%setup -q -n safetensors-0.3.1
+%setup -q -n safetensors-0.3.3
 cd %{_builddir}
 tar xf %{_sourcedir}/pypi-safetensors-2023-07-28-20-05-43.tar.xz
-cd %{_builddir}/safetensors-0.3.1
+cd %{_builddir}/safetensors-0.3.3
 mkdir -p ./vendor
-cp -r %{_builddir}/pypi-safetensors-2023-07-28-20-05-43/* %{_builddir}/safetensors-0.3.1/./vendor
+cp -r %{_builddir}/pypi-safetensors-2023-07-28-20-05-43/* %{_builddir}/safetensors-0.3.3/./vendor
 mkdir -p .cargo
 echo '[source.crates-io]' >> .cargo/config.toml
 echo 'replace-with = "vendored-sources"' >> .cargo/config.toml
