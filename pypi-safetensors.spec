@@ -5,7 +5,7 @@
 #
 Name     : pypi-safetensors
 Version  : 0.3.3
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/ea/43/9911dc3ab9c8da3ef0ecf9c81cca132327f73beb22be9b03eaa9f3070d40/safetensors-0.3.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ea/43/9911dc3ab9c8da3ef0ecf9c81cca132327f73beb22be9b03eaa9f3070d40/safetensors-0.3.3.tar.gz
 Source1  : http://localhost/cgit/vendor/pypi-safetensors/snapshot/pypi-safetensors-2023-07-28-20-05-43.tar.xz
