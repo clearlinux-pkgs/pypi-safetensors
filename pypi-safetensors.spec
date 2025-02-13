@@ -7,7 +7,7 @@
 #
 Name     : pypi-safetensors
 Version  : 0.4.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/32/b4/24d2855f668c2fbee5855cc6551684bdd3f7b935af324c9c8b20290d8443/safetensors-0.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/32/b4/24d2855f668c2fbee5855cc6551684bdd3f7b935af324c9c8b20290d8443/safetensors-0.4.2.tar.gz
 Source1  : http://localhost/cgit/vendor/pypi-safetensors/snapshot/pypi-safetensors-2024-01-30-19-13-59.tar.xz
